@@ -1,0 +1,52 @@
+:root {
+    --main-font: "Wittgenstein",
+        serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0A6847;
+    font-weight: 800;
+    transition: all 100ms ease-in-out;
+}
+
+.main-content {
+    padding: 45px 45px 10px 45px;
+    background-color: #adbc9fce;
+}
+
+.main-content h2 {
+    text-align: start;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.main-content h1 {
+    text-align: center;
+}
+
+.name {
+    margin: 40px;
+    display: inline-block;
+    font-weight: 700;
+}
