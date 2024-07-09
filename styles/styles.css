@@ -1,14 +1,16 @@
 :root {
-    --main-font: "Wittgenstein",
-        serif;
+    --main-font: "Poppins",
+        sans-serif;
 }
 
 body {
     font-family: var(--main-font);
+    background-image: url('/images/back-2-op.png');
+    color: black;
 }
 
 nav {
-    padding: 20px 0;
+    padding: 37px 0;
 }
 
 nav ul {
@@ -19,34 +21,75 @@ nav ul {
 nav li {
     display: inline;
     list-style: none;
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 35px;
 }
 
 nav a {
     text-decoration: none;
-    color: #0A6847;
-    font-weight: 800;
+    color: black;
+    font-weight: 700;
     transition: all 100ms ease-in-out;
 }
 
 .main-content {
-    padding: 45px 45px 10px 45px;
-    background-color: #adbc9fce;
-}
-
-.main-content h2 {
-    text-align: start;
-    font-size: 60px;
-    font-weight: 500;
+    padding: 45px 45px 45px 45px;
+    background-color: #4475429c;
+    margin: 0px 15px 150px;
+    border-radius: 20px;
 }
 
 .main-content h1 {
     text-align: center;
+    font-size: 56px;
+    font-weight: 300;
+    font-family: "Merriweather", serif;
+}
+
+.main-content img {
+    border-radius: 100px;
 }
 
 .name {
-    margin: 40px;
+    margin-top: 50px;
     display: inline-block;
-    font-weight: 700;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    font-style: italic;
+}
+
+.about {
+    padding: 35px 45px 10px 45px;
+    background-image: url('/images/back-flower.png');
+    background-color: #e9f0ad;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin: 0px 90px 20px;
+}
+
+.about h2 {
+    margin-top: 38px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.about p {
+    font-size: 23px;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.name-bold {
+    font-weight: 600;
+    font-style: italic;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-btn {
+    display: inline-block;
 }
