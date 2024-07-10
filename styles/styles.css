@@ -33,7 +33,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #596b59;
+    color: #2a6d58;
     text-decoration: underline;
 }
 
@@ -65,7 +65,7 @@ nav a:hover {
 
 .about {
     padding: 35px 45px 35px 45px;
-    background-image: url('/images/back-flower.png');
+    background-image: url('/images/opacity-flow.png');
     background-color: #f0f3aa;
     background-size: 90%;
     background-repeat: no-repeat;
@@ -90,6 +90,19 @@ nav a:hover {
     font-weight: 600;
     font-style: italic;
 }
+
+.foundation-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 100ms ease-in-out;
+}
+
+.foundation-link:hover {
+    color: #2a6d58;
+    text-decoration: underline;
+}
+
 .btn-container {
     display: flex;
     justify-content: center;
@@ -113,4 +126,28 @@ nav a:hover {
 
 .donate-btn:hover {
     background-color: #1d4e3f;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    margin: 100px 0 0;
+    transition: all 100ms ease-in-out;
+}
+
+footer .email-link:hover {
+    color: #2a6d58;
+    text-decoration: underline;
+}
+
+footer .social-link a {
+    padding: 10px 20px;
+    font-size: 45px;
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-link a:hover {
+    color: #1d4e3f;
 }
