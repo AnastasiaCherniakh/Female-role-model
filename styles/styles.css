@@ -5,7 +5,7 @@
 
 body {
     font-family: var(--main-font);
-    background-image: url('/images/back-2-op.png');
+    background-image: url('/images/background.png');
     color: black;
 }
 
@@ -30,6 +30,11 @@ nav a {
     color: black;
     font-weight: 700;
     transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+    color: #596b59;
+    text-decoration: underline;
 }
 
 .main-content {
@@ -59,13 +64,13 @@ nav a {
 }
 
 .about {
-    padding: 35px 45px 10px 45px;
+    padding: 35px 45px 35px 45px;
     background-image: url('/images/back-flower.png');
-    background-color: #e9f0ad;
+    background-color: #f0f3aa;
     background-size: 90%;
     background-repeat: no-repeat;
     border-radius: 15px;
-    margin: 0px 90px 20px;
+    margin: 0px 90px 30px;
 }
 
 .about h2 {
@@ -76,7 +81,7 @@ nav a {
 }
 
 .about p {
-    font-size: 23px;
+    font-size: 21px;
     padding: 30px;
     font-weight: 500;
 }
@@ -92,4 +97,20 @@ nav a {
 
 .donate-btn {
     display: inline-block;
+    text-decoration: none;
+    background-color: #2a6d58;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 13px 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #2a705b;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.donate-btn:hover {
+    background-color: #1d4e3f;
 }
