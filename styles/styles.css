@@ -104,14 +104,14 @@ nav a:hover {
     font-style: italic;
 }
 
-.foundation-link {
+.text-link {
     text-decoration: none;
     color: black;
     font-weight: 600;
     transition: all 100ms ease-in-out;
 }
 
-.foundation-link:hover {
+.text-link:hover {
     color: var(--main-color);
     text-decoration: underline;
 }
