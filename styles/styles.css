@@ -66,7 +66,7 @@ nav a:hover {
 .about {
     padding: 35px 45px 35px 45px;
     background-image: url('/images/opacity-flow.png');
-    background-color: #f0f3aa;
+    background-color: #F5F5F5;
     background-size: 90%;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -150,4 +150,51 @@ footer .social-link a {
 
 footer .social-link a:hover {
     color: #1d4e3f;
+}
+
+@media (max-width: 600px) {
+
+    nav li {
+        font-size: 17px;
+        margin-left: 9px;
+    }
+
+    .main-content {
+        margin: 0px 25px 150px;
+    }
+
+    .main-content h1 {
+        font-size: 40px;
+        line-height: 1.3;
+    }
+
+    .about {
+        margin: 0px 35px 30px;
+        padding: 25px 15px 35px 15px;
+    }
+
+    .about h2 {
+        font-size: 27px;
+        margin-top: 20px;
+    }
+
+    .about p {
+        font-size: 17px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width:1024px) {
+
+    .about {
+        margin: 0px 40px 30px;
+        padding: 25px 15px 35px 15px;
+    }
+
+    .about p {
+        text-align: center;
+        padding: 20px;
+    }
+    
 }
