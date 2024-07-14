@@ -80,7 +80,6 @@ nav a:hover {
     background-image: url('/images/opacity-flow.png');
     background-color: #F5F5F5;
     background-size: 90%;
-    background-repeat: no-repeat;
     border-radius: 15px;
     margin: 0px 90px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -161,6 +160,7 @@ footer .social-link a {
     font-size: 45px;
     color: black;
     transition: all 100ms ease-in-out;
+    margin-bottom: 35px;
 }
 
 footer .social-link a:hover {
@@ -186,6 +186,7 @@ footer .social-link a:hover {
     .about {
         margin: 0px 35px 30px;
         padding: 25px 15px 35px 15px;
+        background-repeat: repeat;
     }
 
     .about h2 {
@@ -205,6 +206,7 @@ footer .social-link a:hover {
     .about {
         margin: 0px 40px 30px;
         padding: 25px 15px 35px 15px;
+        background-repeat: repeat;
     }
 
     .about p {
